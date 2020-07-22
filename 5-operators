@@ -1,0 +1,101 @@
+Types of operators :  1) Arithmetic Operator
+                      2) Assignment Operator
+                      3) Relational Operator
+                      4) Logical Operator
+                      5) Unari Operator
+                      
+- One more operator is there which is "Bitwise Operator", We will talk later about that.
+
+***************************************************************************************************
+
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+>>> # Arithmetic Operators
+>>> 
+>>> x = 2
+>>> y = 5
+>>> x + y
+7
+>>> x - y
+-3
+>>> x * y
+10
+>>> x / y
+0.4
+>>> 
+>>> # Assignment Operators
+>>> 
+>>> x = x + 5
+>>> x
+7
+>>> x += 2
+>>> x
+9
+>>> x *= 3
+>>> x
+27
+>>> a,b = 1,9
+>>> a
+1
+>>> b
+9
+>>> 
+>>> # Unary Operator
+>>> 
+>>> n = 5
+>>> n
+5
+>>> -n
+-5
+>>> n
+5
+>>> n = -n
+>>> n
+-5
+>>> 
+>>> # Relational Operators
+>>> 
+>>> a < b
+True
+>>> a > b
+False
+>>> a == b                                      # Here, we can't use single '=' because it is assignment operator; so we have use double ' == ' for relational operator.
+False
+>>> a = 9
+>>> a == b
+True
+>>> a <= b
+True
+>>> a >= b
+True
+>>> a != b
+False
+>>> b = 3
+>>> a != b
+True
+>>> 
+>>> # Logical Operators
+>>> 
+>>> a = 9
+>>> b = 5
+>>> a < 10 and b < 7
+True
+>>> a < 10 and b < 2
+False
+>>> a < 10 or b < 3
+True
+>>> x = true
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    x = true
+NameError: name 'true' is not defined
+>>> x = True
+>>> x
+True
+>>> not x
+False
+>>> x = not x
+>>> x
+False
+>>> 
