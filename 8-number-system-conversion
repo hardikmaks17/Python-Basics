@@ -1,0 +1,31 @@
+>>  There is four type of number system :
+
+
+**  Name    |  numbers  |  base   | function  |  Representation (prefix)
+    
+1) binary   |    0-1    |   2     |   bin()   |     0b
+2) decimal  |    0-9    |   10    |     -     |     -
+3) octal    |    0-7    |   8     |   oct()   |     0o
+4) hexa     | 0-9 & a-f |   16    |   hex()   |     0x
+
+
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+>>> bin(25)                       # decimal to binary
+'0b11001'
+>>> 0b0101                        # binary to decimal
+5
+>>> oct(31)                       # decimal to octal
+'0o37'
+>>> 0o37                          # octal to decimal
+31
+>>> hex(13)                       # decimal to hexadecimal
+'0xd'
+>>> 0xf                           # hexadecimal to decimal        
+15
+>>> hex(25)                       # decimal to hexadecimal
+'0x19'
+>>> 0b11011100                    # binary to decimal
+220
+>>> 
