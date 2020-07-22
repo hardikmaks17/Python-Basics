@@ -1,8 +1,8 @@
-Types of operators :  1) Arithmetic Operator
-                      2) Assignment Operator
-                      3) Relational Operator
-                      4) Logical Operator
-                      5) Unari Operator
+Types of operators :  1) Arithmetic Operators   :   + , - , * , / , //
+                      2) Assignment Operators   :   = , += , -= , *= , /=
+                      3) Relational Operators   :   < , > , == , >= , <= , !=
+                      4) Logical Operators      :   and , or , not
+                      5) Unary Operator         :   -
                       
 - One more operator is there which is "Bitwise Operator", We will talk later about that.
 
@@ -11,7 +11,7 @@ Types of operators :  1) Arithmetic Operator
 Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 
->>> # Arithmetic Operators
+>>> # Arithmetic Operators   :   + , - , * , / , //
 >>> 
 >>> x = 2
 >>> y = 5
@@ -24,7 +24,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> x / y
 0.4
 >>> 
->>> # Assignment Operators
+>>> # Assignment Operators   :   = , += , -= , *= , /=
 >>> 
 >>> x = x + 5
 >>> x
@@ -41,7 +41,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> b
 9
 >>> 
->>> # Unary Operator
+>>> # Unary Operator   :   -
 >>> 
 >>> n = 5
 >>> n
@@ -54,7 +54,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> n
 -5
 >>> 
->>> # Relational Operators
+>>> # Relational Operators   :   < , > , == , >= , <= , !=
 >>> 
 >>> a < b
 True
@@ -75,7 +75,7 @@ False
 >>> a != b
 True
 >>> 
->>> # Logical Operators
+>>> # Logical Operators    :   and , or , not
 >>> 
 >>> a = 9
 >>> b = 5
