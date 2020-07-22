@@ -77,3 +77,9 @@ TypeError: 'str' object does not support item assignment
 >>>
 >>> a = b = c = 1                                                     # Here, an integer object is created with the value 1, and all three variables are assigned to the same memory location.
 >>> a,b,c = 1,2,"john"                                                # Here, two integer objects with values 1 and 2 are assigned to variables a and b respectively, and one string object with the value "john" is assigned to the variable c.
+>>> # id -> This funtion is used to know address of the variable,list,tuple,set etc...
+>>> 
+>>> num = 5
+>>> id(num)
+1957361648
+>>> 
