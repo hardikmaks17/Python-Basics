@@ -1,0 +1,187 @@
+# To use mathematics functions in PYTHON we have to "import math library".
+# syntax for import math library is given as below.
+
+# Syntax  :   1) import math
+              2) import math as m   |   where m = any name
+              3) from math import individual_function(like sqrt,pow...)   or   from math import *   |   using this you don't have to write everytime = math. 
+
+# Here is the list of some mathematical functions : sqrt() , floor() , ceil() , factorial() , trigo - sin(),cos(),tan()... , pow(x,y) , e , pi etc....
+
+*********************************************************************************************************
+
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+>>> x = sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    x = sqrt(25)
+NameError: name 'sqrt' is not defined
+>>> x = math.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    x = math.sqrt(25)
+NameError: name 'math' is not defined
+>>> import math
+>>> x = math.sqrt(25)
+>>> x
+5.0
+>>> x = math.sqrt(15)
+>>> x
+3.872983346207417
+>>> int(_)                                            # ' _ '   =  underscore used to get output of previous output.
+3
+>>> x
+3.872983346207417
+>>> type(x)                                           # type()  =  to get type of variable 
+<class 'float'>
+>>> x = int(math.sqrt(15))
+>>> x
+3
+>>> type(x)
+<class 'int'>
+>>> math.sqrt(36)
+6.0
+>>> print(math.floor(2.9))
+2
+>>> printf(math.floor(2.2))
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    printf(math.floor(2.2))
+NameError: name 'printf' is not defined
+>>> print(math.floor(2.2))
+2
+>>> printf(math.ceil(2.2))
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    printf(math.ceil(2.2))
+NameError: name 'printf' is not defined
+>>> 
+>>> print(math.ceil(2.2))
+3
+>>> print(math.ceil(2.7))
+3
+>>> math.factorial(4)
+24
+>>> print(math.factorial(10))
+3628800
+>>> print(math.sin(0))
+0.0
+>>> print(math.sin(90))
+0.8939966636005579
+>>> print(math.cos(0))
+1.0
+>>> print(math.cos(90))
+-0.4480736161291701
+>>> math.tan(0)
+0.0
+>>> math.tan(1.57)
+1255.7655915007897
+>>> math.tan(.78)
+0.989261536876605
+>>> math.tan(0.78)
+0.989261536876605
+>>> math.pow(3,2)
+9.0
+>>> int(math.pow(5,3))
+125
+>>> math.pi
+3.141592653589793
+>>> math.e
+2.718281828459045
+>>> 
+>>> 
+>>> #alise function
+>>> 
+>>> m.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    m.sqrt(25)
+NameError: name 'm' is not defined
+>>> import math as m
+>>> m.sqrt(25)
+5.0
+>>> math.sqrt(25)
+5.0
+>>> import math as mm
+>>> mm.sqrt(25)
+5.0
+>>> math.sqrt(36)
+6.0
+>>> m.sqrt(36)
+6.0
+>>> import math as wh
+>>> wh.sqrt(81)
+9.0
+>>> mm.sqrt(81)
+9.0
+>>>  
+======================================================================= RESTART: Shell ======================================================================
+>>> math.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    math.sqrt(25)
+NameError: name 'math' is not defined
+>>> from math import sqrt
+>>> sqrt(36)
+6.0
+>>> pow(3,4)
+81
+>>> sin(0)
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    sin(0)
+NameError: name 'sin' is not defined
+>>> floor(3.6)
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    floor(3.6)
+NameError: name 'floor' is not defined
+>>> 
+======================================================================= RESTART: Shell ======================================================================
+>>> from math import sqrt,sin,floor
+>>> sin(0)
+0.0
+>>> floor(23.9)
+23
+>>> ceil(5.1)
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    ceil(5.1)
+NameError: name 'ceil' is not defined
+>>> import ceil
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    import ceil
+ModuleNotFoundError: No module named 'ceil'
+>>> from math import ceil
+>>> ceil(5.1)
+6
+>>> 
+======================================================================= RESTART: Shell ======================================================================
+>>> pow(3,4)
+81
+>>> sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    sqrt(25)
+NameError: name 'sqrt' is not defined
+>>> from math import sqrt
+>>> math.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#54>", line 1, in <module>
+    math.sqrt(25)
+NameError: name 'math' is not defined
+>>> sqrt(sqrt)
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    sqrt(sqrt)
+TypeError: must be real number, not builtin_function_or_method
+>>> sqrt(25)
+5.0
+>>> print(math.sqrt(25))
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    print(math.sqrt(25))
+NameError: name 'math' is not defined
+>>> 
