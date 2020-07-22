@@ -1,0 +1,72 @@
+There is six types of bitwise operatores  :   1)  Complement    :   ~   (one's complement)
+                                              2)  And           :   &
+                                              3)  Or            :   |
+                                              4)  XOR           :   ^
+                                              5)  left-shift    :   <<
+                                              6)  right-shift   :   >>
+
+*************************************************************************************************
+
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+>>> ~12                                                           # one's complement of 12
+-13
+>>> ~a
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    ~a
+NameError: name 'a' is not defined
+>>> a=12
+>>> ~a
+-13
+>>> ~45
+-46
+>>> ~121
+-122
+>>> ~0
+-1
+>>> ~1
+-2
+>>> ~100
+-101
+>>> ~-13
+12
+>>> ~-1
+0
+>>> ~-5
+4
+>>> ~99
+-100
+>>> ~-99
+98
+>>> 12 & 13                                                 # bitwise AND
+12
+>>> 12 | 13                                                 # bitwise OR
+13
+>>> 25 & 30
+24
+
+>>> 125 & 5
+5
+>>> 488 & 79
+72
+>>> 12 ^ 31                                                 # bitwise exclusive OR
+19
+>>> 12 ^ 13
+1
+>>> 25 ^ 30
+7
+>>> 10 << 2                                                 # left shift    
+40
+>>> 10 <<< 2
+SyntaxError: invalid syntax
+>>> 10 << 1
+20
+>>> 10 << 3
+80
+>>> 10 >> 2                                                 # right shift
+2
+>>> 20 >> 3
+2
+>>> 
