@@ -2,11 +2,11 @@ Data tyepes in PYTHON :-
 
 1] None
 2] Numeric
-3] List         # comes under 'Sequence'
-4] Tuples       # comes under 'Sequence'
-5] Set          # comes under 'Sequence'
-6] String       # comes under 'Sequence'
-7] Range        # comes under 'Sequence'
+3] List
+4] Tuples
+5] Set
+6] String
+7] Range
 8] Dictionary
 
 
