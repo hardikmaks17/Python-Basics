@@ -1,0 +1,79 @@
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> name = 'Maks'                                 #assigning variable
+>>> name                                          #executing existing variable
+'Maks'
+>>> print(name)                                   #printing value of variable
+Maks
+>>> name*3                                        #multiplication operation on variable
+'MaksMaksMaks'
+>>> 'We ' + name                                  #concatenation 
+'We Maks'
+>>> name[0]                                       #fatching value of variable by using index number
+'M'
+>>> name[3]
+'s'
+>>> name[10]
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    name[10]
+IndexError: string index out of range
+>>> name[-1]
+'s'
+>>> name[-2]
+'k'
+>>> name[-7]
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    name[-7]
+IndexError: string index out of range
+>>> name[0:]
+'Maks'
+>>> name[]
+SyntaxError: invalid syntax
+>>> name[0:2]
+'Ma'
+>>> name[0:10]
+'Maks'
+>>> name[:3]
+'Mak'
+>>> name[-1:-3]
+''
+>>> name[-3:-1]
+'ak'
+>>> name[:-1]
+'Mak'
+>>> name[:]
+'Maks'
+>>> name[:0]
+''
+>>> name[-4:0]
+''
+>>> name[0:-4]
+''
+>>> name[0]
+'M'
+>>> name[-4:1]
+'M'
+>>> name[0:1]
+'M'
+>>> name[-10:1]
+'M'
+>>> name[-5:]
+'Maks'
+>>> name[0] = 'W'
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    name[0] = 'W'
+TypeError: 'str' object does not support item assignment
+>>> _ + 'whiteheart'                                                  # " _ " underscore - by using it we can use previous output  
+'Makswhiteheart'
+>>> len(_)
+14
+>>> len(name)                                                         # len() - this function is used to get number of counts in a string
+4
+>>> 
+>>> #Multiple Assignment
+>>>
+>>> a = b = c = 1                                                     # Here, an integer object is created with the value 1, and all three variables are assigned to the same memory location.
+>>> a,b,c = 1,2,"john"                                                # Here, two integer objects with values 1 and 2 are assigned to variables a and b respectively, and one string object with the value "john" is assigned to the variable c.
