@@ -1,0 +1,72 @@
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> data = {1:'Hardik',2:'Makwana',4:'Maks'}
+>>> data
+{1: 'Hardik', 2: 'Makwana', 4: 'Maks'}
+>>> data[4]
+'Maks'
+>>> data[1]								# fetching values of the dictionary using - "Keys"
+'Hardik'
+>>> data[3]
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    data[3]
+KeyError: 3
+>>> data.get(2)
+'Makwana'
+>>> data.get(3)								# No output will be shown because we don't have anything at key - 3
+>>> print(data.get(3))
+None
+>>> data.get(1,,'Not Found')
+SyntaxError: invalid syntax
+>>> data.get(1,'Not Found')
+'Hardik'
+>>> data.get(3,'Not Found')
+'Not Found'
+>>> 
+>>> 
+>>> # Create dictionary with the help of two list (merging two list into a dictionary)
+>>> 
+>>> 
+>>> keys = ['Hardik','Maks','Khush']
+>>> values = ['Python','Java','JS']
+>>> data = dict(zip(keys,values))
+>>> data
+{'Hardik': 'Python', 'Maks': 'Java', 'Khush': 'JS'}
+>>> data['Hardik']
+'Python'
+>>> data['Jyoti']
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    data['Jyoti']
+KeyError: 'Jyoti'
+>>> data['Jyoti'] = 'CS'						# To add data into existing dictionary 
+>>> data
+{'Hardik': 'Python', 'Maks': 'Java', 'Khush': 'JS', 'Jyoti': 'CS'}
+>>> del data['Hardik']							# To delete value from the dictionary
+>>> data
+{'Maks': 'Java', 'Khush': 'JS', 'Jyoti': 'CS'}
+>>> 
+>>> 
+>>> # How to take; dictionary and list, inside a dictionary. like nested dictionary 
+>>> 
+>>> 
+>>> prog = {'JS':'Atom', 'CS':'VS', 'Python':['Pycharm','Sublime'], 'Java':{'JSE':'Netbeans','JEE':'Eclipse'}}
+>>> prog
+{'JS': 'Atom', 'CS': 'VS', 'Python': ['Pycharm', 'Sublime'], 'Java': {'JSE': 'Netbeans', 'JEE': 'Eclipse'}}
+>>> prog['JS']
+'Atom'
+>>> prog['Python']
+['Pycharm', 'Sublime']
+>>> prog['Python'][1]
+'Sublime'
+>>> prog['JAVA']
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    prog['JAVA']
+KeyError: 'JAVA'
+>>> prog['Java']
+{'JSE': 'Netbeans', 'JEE': 'Eclipse'}
+>>> prog['Java']['JEE']
+'Eclipse'
+>>> 
