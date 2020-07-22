@@ -1,0 +1,20 @@
+Data tyepes in PYTHON :-
+
+1] None
+2] Numeric
+3] List         # comes under 'Sequence'
+4] Tuples       # comes under 'Sequence'
+5] Set          # comes under 'Sequence'
+6] String       # comes under 'Sequence'
+7] Range        # comes under 'Sequence'
+8] Dictionary
+
+
+1) None  -  variable which has no value. like we have "null" in C language.
+
+2) Numeric  -  it means numbers.
+>> It has 4 types :   1. int        -     integer type like 1,5,9...
+                      2. float      -     decimal numbers like 5.9
+                      3. complex    -     ie,   num = 6 + 9j
+                      4. bool       -     True/False (0/1)
+                      
