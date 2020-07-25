@@ -2,7 +2,7 @@
 
 # 1] Formal Argument - Whatever parameter/argument we define in function while defining funtion is called "Formal Argument".
 
-# 2] Actual Argument - After calling function whatever we give value the funtion is called "Actuak Argument".
+# 2] Actual Argument - After calling function whatever we give value the funtion is called "Actual Argument".
 #    => There is 4 types of actual argument :
 #       1) Position
 #       2) Keyword
@@ -11,6 +11,7 @@
 
 
 # Sample Program - 1    :   Types of Function Argument
+
 
 def add(x,y):                           # here (x,y) is - Formal Argument
 
@@ -37,7 +38,6 @@ print()
 # Above, compare line 30 & 32 position of arguments are needed true, otherwise it can give wrong output.
 # So this is "Position Argument".
 
-
 # Program - 2   :   Keyword Argument
 
 def person(name,age):
@@ -47,7 +47,6 @@ def person(name,age):
 # If we don't know position of the parameter , we can write directly name of the parameter and assign the value...  See below...
 person(age=21,name='Maks')                          # 'age' & 'name' are called as "Keyword"
 print()
-
 
 # Program - 3   :   Default Argument
 
@@ -59,7 +58,6 @@ person('Khush')                                     # Default age is 18.
 print()
 person('Maks',21)                                   # Age value entered
 print()
-
 
 # Program - 4   :   Variable Length Argument  -  This argument is useful when we are not sure about how many parameter we need.
 
@@ -77,6 +75,7 @@ print()
 
 
 # Sample Program - 3    :   Keyworded Variable Length Argument
+
 
 def person(name, *data):                                    # ' * ' - single star
 
