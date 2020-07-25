@@ -1,5 +1,6 @@
 # How to use/import array in PYTHON
 # Syntax : array('type',values)
+
 # 'i' - signed integer      : it will allow to use all integer including -ve numbers
 # 'I' - unsigned integer    : it will allow to use only +ve numbers
 # 'u' - unsigned integer    : it will allow to use characters only
@@ -29,10 +30,10 @@ print()
 from array import *
 vals = array('i',[2,5,91,50])
 print("Way - 3 to import Array : ",vals)
-vals.reverse()                                                          #function to get reverse of the array   #it is written value so can't write directly in print()
+vals.reverse()                                                          # function to get reverse of the array   #it is written value so can't write directly in print()
 print("Reversed array :",vals)
-print("\nAddress and the Size of the array :",vals.buffer_info())       #function to get address and the size of the array
-print("Type of the array :",vals.typecode)                              #function to get type of the array
+print("\nAddress and the Size of the array :",vals.buffer_info())       # function to get address and the size of the array
+print("Type of the array :",vals.typecode)                              # function to get type of the array
 print()
 
 
@@ -42,14 +43,14 @@ print()
 # Way - 1
 from array import *
 vals = array('i',[2,5,91,50])
-for i in vals:                                      #Directly using variable name
+for i in vals:                                                          # Directly using variable name
     print("elemnt of the array :",i)
 print()
 
 # Way - 2
 from array import *
 vals = array('i',[2,5,91,50])
-for i in range(len(vals)):                          #Using range() function
+for i in range(len(vals)):                                              # Using range() function
     print(i+1,"element of the array :",vals[i])
 print()
 
@@ -82,7 +83,7 @@ print()
 # Way - 1 : Using For Loop
 from array import *
 vals = array('i',[2,5,9,11])
-newArr = array(vals.typecode, (a*a for a in vals))      # a*a ,, we can use other opertaions also like a*2,a%5 etc...
+newArr = array(vals.typecode, (a*a for a in vals))                          # a*a ,, we can use other opertaions also like a*2,a%5 etc...
 for i in range(len(newArr)):
     print(i+1,"element of the new array :",newArr[i])
 print()
