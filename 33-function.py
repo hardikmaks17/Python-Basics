@@ -22,7 +22,8 @@ print()
 
 # Sample Program - 2    :   Creating function for addition
 
-def add(x,y):                                   # we can call x & y as arguments(paramiters)
+
+def add(x,y):                                                      # we can call x & y as arguments(paramiters)
     c = x + y
     #print("Addition of two numbers :",c)
     return c
@@ -34,6 +35,7 @@ print()
 
 # Sample Program - 3    :   Creating function for addition and substration both
 
+
 def add_sub(x,y):
     #x = int(input("Enter first number :"))
     #y = int(input("Enter second number :"))
@@ -41,5 +43,5 @@ def add_sub(x,y):
     s = x - y
     return a,s
 
-result1,result2 = add_sub(5,4)                  # we have returned two values a & s,, so we have to accept two values also... So i have written result1 & result2
+result1,result2 = add_sub(5,4)                                      # we have returned two values a & s,, so we have to accept two values also... So i have written result1 & result2
 print("Addition :",result1,"\nSubstraction :",result2)
