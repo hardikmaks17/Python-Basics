@@ -1,5 +1,6 @@
 # Sample Program - 1    :   Getting input from the user
 
+
 from array import *
 arr = array('i',[])                                             # [] - it states : EMPTY ARRAY
 
@@ -11,7 +12,9 @@ for i in range(n):
 print(arr)
 print()
 
+
 # Sample Program - 2   :   Searching index value of the number  # Note it is using above code's array
+
 
 # Way - 1 : By using for loop
 
