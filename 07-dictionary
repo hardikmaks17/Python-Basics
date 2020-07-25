@@ -5,7 +5,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 {1: 'Hardik', 2: 'Makwana', 4: 'Maks'}
 >>> data[4]
 'Maks'
->>> data[1]								          # fetching values of the dictionary using - "Keys"
+>>> data[1]							        	                                      # fetching values of the dictionary using - "Keys"
 'Hardik'
 >>> data[3]
 Traceback (most recent call last):
@@ -14,7 +14,7 @@ Traceback (most recent call last):
 KeyError: 3
 >>> data.get(2)
 'Makwana'
->>> data.get(3)								      # No output will be shown because we don't have anything at key - 3
+>>> data.get(3)								                                          # No output will be shown because we don't have anything at key - 3
 >>> print(data.get(3))
 None
 >>> data.get(1,,'Not Found')
@@ -40,10 +40,10 @@ Traceback (most recent call last):
   File "<pyshell#20>", line 1, in <module>
     data['Jyoti']
 KeyError: 'Jyoti'
->>> data['Jyoti'] = 'CS'						# To add data into existing dictionary 
+>>> data['Jyoti'] = 'CS'						                                    # To add data into existing dictionary 
 >>> data
 {'Hardik': 'Python', 'Maks': 'Java', 'Khush': 'JS', 'Jyoti': 'CS'}
->>> del data['Hardik']							# To delete value from the dictionary
+>>> del data['Hardik']							                                    # To delete value from the dictionary
 >>> data
 {'Maks': 'Java', 'Khush': 'JS', 'Jyoti': 'CS'}
 >>> 
