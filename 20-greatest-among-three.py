@@ -1,8 +1,11 @@
+# How to get gretest among three numbers.
+
+
 # Way - 1 : using nested if
 
-a = int(input('Enter first number : '))
+a = int(input('Enter first number  : '))
 b = int(input('Enter second number : '))
-c = int(input('Enter third number : '))
+c = int(input('Enter third number  : '))
 
 if a>b:
     if a>c:
