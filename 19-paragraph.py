@@ -1,4 +1,4 @@
-# take input and give output as paragraph
+# take input and give output as paragraph.
 
 Name = input( 'Enter your name : ' )
 Age = int(input( 'How old are you? : ' ))
