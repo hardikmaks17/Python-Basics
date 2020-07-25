@@ -6,6 +6,5 @@ def fact(n):
 
     return n * fact( n - 1 )
 
-
 result = fact( n=int( input( "Enter a number : " ) ) )
 print( "Factorial of given number :", result )
