@@ -21,20 +21,20 @@ print()
 
 # Sample Program - 3    :   Operations on list
 
-number.insert( 2, 77 )              # insert(index,value)
+number.insert( 2, 77 )                          # insert(index,value)
 print( number )
-number.remove( 3 )                  # remove(value) - it will delete element by values
+number.remove( 3 )                              # remove(value) - it will delete element by values
 print( number )
-number.pop( 1 )                     # pop(index) - it will delete element by index number
+number.pop( 1 )                                 # pop(index) - it will delete element by index number
 print( number )
-number.pop()                        # pop() - by defalt it will delete last element of the list as "LIFO"
+number.pop()                                    # pop() - by defalt it will delete last element of the list as "LIFO"
 print( number )
-del number[2:5]                     # del - to delete multiple values togather...   del list_name[starting_point : end_point]   where, end_point excluded
+del number[2:5]                                 # del - to delete multiple values togather...   del list_name[starting_point : end_point]   where, end_point excluded
 print( number )
 number.extend( [135, 146, 145] )
-print( number )                     # to add multiple elements at a time
+print( number )                                 # to add multiple elements at a time
 print()
-number.sort()                       # to sort the list
+number.sort()                                   # to sort the list
 print(number)
 
 # Sample Program - 4    :   update value of the list
