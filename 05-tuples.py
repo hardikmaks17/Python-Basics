@@ -20,7 +20,7 @@ print("Value of index number 0 is :",i[0])
 print("Value of index number 1 is :",s[1])
 print("Value of index number 3 is :",m[3])
 
-print(i[2 : 4])                                 # it will exclude end_point which is index number 4
-print(i[  : 4])                                 # it wil give values of index number 0 to 3
-print(i[3 :  ])                                 # it wil give values of index number 3 to to last
-print("Value of index number -1 is :",i[-1])    # negative index value starts from "right to left"... So -1 will give last value
+print(i[2 : 4])                                                       # it will exclude end_point which is index number 4
+print(i[  : 4])                                                       # it wil give values of index number 0 to 3
+print(i[3 :  ])                                                       # it wil give values of index number 3 to to last
+print("Value of index number -1 is :",i[-1])                          # negative index value starts from "right to left"... So -1 will give last value
