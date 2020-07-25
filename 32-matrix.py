@@ -1,6 +1,8 @@
 # How to create Matrix.
 
+
 # Sample Program - 1   :   To create like matrix
+
 
 from numpy import *
 
@@ -53,7 +55,9 @@ m = matrix('1,2,3 ; 4,5,6 ; 7,8,9')
 print("Matrix :\n",m)
 print()
 
-# Sample Program - 3   :    Operations on matrix
+
+# Sample Program - 4   :    Operations on matrix
+
 
 # 1 - Functions
 print("Diagonal elements :",diagonal(m))            # diagonal(name)
