@@ -3,7 +3,7 @@
 # 1) Break Keyword :
 
 # Sample Program - 1    this program is not correct for inputs ( x > 11) need some improvements
-av = 10                 # av = available
+av = 10                                                 # av = available
 x = int( input( "How many Candies you want?\n" ) )
 i = 1
 while i <= x:
