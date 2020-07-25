@@ -1,4 +1,4 @@
-# Fibonacci Sequence
+# How to get Fibonacci Sequence.
 
 def fib(n):
 
