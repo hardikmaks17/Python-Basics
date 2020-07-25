@@ -41,7 +41,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> b
 9
 >>> 
->>> # Unary Operator   :   -
+>>> # Unary Operator        :   -
 >>> 
 >>> n = 5
 >>> n
