@@ -4,15 +4,15 @@
 # Way - 1   :   array()
 
 from numpy import *
-arr = array([1, 5, 8.5, 3, 4])          # you can also describe type of the array like this - array([1, 5, 8.5, 3, 4],type)     where, type = int,float...
-print("Way - 1 : array() --",arr)                              # you can verify in the output that integer values are converted into float automatically because of 8.5 ! (as we know all values should be in same type)
-print(arr.dtype)                        # variablename.dtype : to get type of the array
+arr = array([1, 5, 8.5, 3, 4])                      # you can also describe type of the array like this - array([1, 5, 8.5, 3, 4],type)     where, type = int,float...
+print("Way - 1 : array() --",arr)                   # you can verify in the output that integer values are converted into float automatically because of 8.5 ! (as we know all values should be in same type)
+print(arr.dtype)                                    # variablename.dtype : to get type of the array
 print()
 
 # Way - 2   :   linspace()
 
 from numpy import *
-arr = linspace(1,16,16)                 # stop point included so it will go grom 1 to 16.
+arr = linspace(1,16,16)                             # stop point included so it will go grom 1 to 16.
 print("Way - 2 : linspace() --",arr)
 print(arr.dtype)
 print()
@@ -38,10 +38,10 @@ print()
 # Way - 5   :   zeros()
 
 from numpy import *
-arr = zeros(5)                          # By default it will create float values as zeros array
+arr = zeros(5)                                      # By default it will create float values as zeros array
 print('Float vales :',arr)
 print(arr.dtype)
-arr = zeros(5,int)                      # Specify 'int' to create integer zeros array
+arr = zeros(5,int)                                  # Specify 'int' to create integer zeros array
 print('Integer vales :',arr)
 print(arr.dtype)
 print()
@@ -49,10 +49,10 @@ print()
 # Way - 6   :   ones()
 
 from numpy import *
-arr = ones(5)                          # By default it will create float values as ones array
+arr = ones(5)                                       # By default it will create float values as ones array
 print('Float vales :',arr)
 print(arr.dtype)
-arr = ones(5,int)                      # Specify 'int' to create integer ones array
+arr = ones(5,int)                                   # Specify 'int' to create integer ones array
 print('Integer vales :',arr)
 print(arr.dtype)
 print()
