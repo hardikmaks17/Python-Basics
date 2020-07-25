@@ -1,4 +1,4 @@
-# Different operations on the array
+# Different operations on the array.
 
 
 # Sample Program - 1    :   Adding values in each element of the array
@@ -14,6 +14,7 @@ arr = arr + 5
 print( arr )
 print()
 
+
 # Sample Program - 2    :   Addition of two array  (We can say this as vectorized operation)     # Note - Both array should have same number of values
 
 
@@ -24,6 +25,7 @@ arr2 = array( [1, 5, 9, 3, 8] )
 arr3 = arr1 + arr2
 print( "Addition of two array :", arr3 )
 print()
+
 
 # Sample Program - 3    :   Operations on array
 
@@ -54,7 +56,9 @@ arr2 = array( [1, 5, 9, 3, 8] )
 print( "Concatenation of two arrays :", concatenate( [arr1, arr2] ) )
 print()
 
+
 # Sample Program - 4    :   Copying array
+
 
 # Way - 1   :   scintifically this is not copying ,, WE CAN CALL THIS METHOD AS "ALIASING"
 from numpy import *
@@ -77,7 +81,9 @@ print( "Addres of arr1 :", id( arr1 ) )
 print( "Addres of arr2 :", id( arr2 ) )
 print()
 
+
 # Sample Program - 5    :   There is two type of copying array.  1] Shallow Copy     2] Deep Copy
+
 
 # 1] Shallow Copy - Both array are dependent on each array always. like if I change one of the array's element than other array will also change.
 
@@ -89,6 +95,7 @@ arr1[2] = 7
 arr2[4] = 10
 print( arr1, arr2, id( arr1 ), id( arr2 ) )     # Compare values of arr1[2],arr2[2],arr2[4],arr[1]
 print()
+
 
 # 2] Deep Copy - Both array are independent for each array always. like if I change one of the array's element than other array will not change.
 
