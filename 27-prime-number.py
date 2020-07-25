@@ -1,3 +1,6 @@
+# How to get prime numbers!
+
+
 num = int(input("Enter a number : "))
 if num > 1:
     for i in range(2,num):
