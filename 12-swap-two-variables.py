@@ -1,7 +1,8 @@
-# Swapping of two numbers
+# Here you will see how to swap two numbers!
 
 
 # Way - 1   :   Using temporary variable
+
 
 x = int( input( 'Enter any number : ' ) )
 y = int( input( 'Enter any number : ' ) )
@@ -14,7 +15,9 @@ y = temp
 print( "After swapping  :", x, y )
 print()
 
+
 # Way - 2   :   In PYTHON we can swap directly using it's in-built feature.
+
 
 a = int( input( 'Enter any number : ' ) )
 b = int( input( 'Enter any number : ' ) )
