@@ -52,6 +52,7 @@ print()
 
 # Sample Program - 3    :   reduce(function,sequence)
 
+
 # To use reduce function we have to import below library -
 from functools import reduce
 
