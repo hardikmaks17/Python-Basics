@@ -39,10 +39,10 @@ print()
 
 from numpy import *
 arr = zeros(5)                                      # By default it will create float values as zeros array
-print('Float vales :',arr)
+print('Float values :',arr)
 print(arr.dtype)
 arr = zeros(5,int)                                  # Specify 'int' to create integer zeros array
-print('Integer vales :',arr)
+print('Integer values :',arr)
 print(arr.dtype)
 print()
 
@@ -50,9 +50,9 @@ print()
 
 from numpy import *
 arr = ones(5)                                       # By default it will create float values as ones array
-print('Float vales :',arr)
+print('Float values :',arr)
 print(arr.dtype)
 arr = ones(5,int)                                   # Specify 'int' to create integer ones array
-print('Integer vales :',arr)
+print('Integer values :',arr)
 print(arr.dtype)
 print()
